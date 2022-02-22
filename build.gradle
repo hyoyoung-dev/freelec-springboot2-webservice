@@ -27,3 +27,7 @@ dependencies {
     testImplementation('org.springframework.security:spring-security-test')
     testImplementation('org.projectlombok:lombok')
 }
+
+jar {
+    enabled = false
+}
